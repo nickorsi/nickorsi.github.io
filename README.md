@@ -1,6 +1,6 @@
 # nickorsi.github.io
 
-## First attempt at a personal portfolio written only with HTML and CSS
+## Project Description
 
 (Paragraph describing project)
 This is my first attempt at a personal portfolio. I wrote it using only HTML and CSS, so there is very little interactivity. The portfolio site has the following sections:
@@ -10,10 +10,10 @@ This is my first attempt at a personal portfolio. I wrote it using only HTML and
 * Projects Page: Has no info currently, plan to add into this section later
 * Contacts Page: Information on how to reach me and where I'm located. 
 
-## (Visual on How to Run Project)
+## Visual on How to Run Project
 NA
 
-## (How to Install Project)
+## How to Install Project
 NA
 
 ## How to Contribute
