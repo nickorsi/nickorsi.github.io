@@ -2,7 +2,6 @@
 
 ## Project Description
 
-(Paragraph describing project)
 This is my first attempt at a personal portfolio. I wrote it using only HTML and CSS, so there is very little interactivity. The portfolio site has the following sections:
 * Navbar: Links to external career related sites and links to the pages below. 
 * Welcome Page: Includes a picture and basic title
