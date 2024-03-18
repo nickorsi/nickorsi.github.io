@@ -7,73 +7,75 @@
   <title>Nick Orsi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Rajdhani&family=Roboto:ital@0;1&family=Source+Code+Pro&family=Varela+Round&family=Vibur&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="sources/style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar flex">
-      <div class="nav_left flex">
-        <a href="https://github.com/nickorsi" class="image_link flex" target="_blank">
-          <img src="sources/images/GitHub_Logo.png" alt="Github Logo" id="github">
-        </a>
-        <a href="https://www.linkedin.com/in/nicholas-orsi/" class="image_link flex" target="_blank">
-          <img src="sources/images/LinkedIn-Blue-40-┬«@2x.png" alt="LinkedIn Logo" id="linkedin">
-        </a>
-      </div>
-      <div class="nav_right flex">
-        <a href="#welcome">Welcome</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar fixed-top navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#about">Nick Orsi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="nav-link" aria-current="page" href="#projects">PROJECTS</a>
+          <a class="nav-link" aria-current="page" href="#construction">CONSTRUCTION</a>
+          <a class="nav-link" aria-current="page" href="#hobbies">HOBBIES</a>
+        </div>
       </div>
     </nav>
   </header>
   <main class="main">
-    <section class="welcome flex" id="welcome">
-      <h1 id="name">Welcome, I'm Nick Orsi</h1>
-      <h2 id="occupation">Software/Civil Engineer</h2>
-    </section>
-    <section class="about flex" id="about">
-      <div class="about_container">
-        <h1>About Me</h1>
-        <h3>From Civil Engineer to Software Engineer</h3>
-        <div class="profile_container">
-          <div class="profile_photo flex">
-            <img src="sources/images/headshot.jpeg" alt="Author Photo">
+    <section class="about" id="about">
+      <div class="about_container container-flexible">
+        <h1 id="name">Nick Orsi</h1>
+        <h2 id="occupation">
+          Software Engineer |
+          Former Civil Engineer |
+          <a class="email" href="mailto:nick.orsi1992@gmail.com">nick.orsi1992@gmail.com</a>
+        </h2>
+        <div class="about_container_parts row justify-content-around">
+          <div class="descript col-md-7 order-3 order-md-1 d-flex flex-column justify-content-around">
+            <h3>Hello!</h3>
+            <p>I'm' a software engineer with a passion for working on substantive
+              problems as part of talented teams making positive impacts. Having
+              worked 8 years as a Civil Engineer I bring the traits and skillsets
+              of a practiced engineer experienced with working on
+              challenging problems, with talented teams, making positive impact.</p>
+            <div class="d-flex justify-content-around align-items-center">
+              <a href="https://github.com/nickorsi" class="image_link flex" target="_blank">
+                <svg id="github" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/nicholas-orsi/" class="image_link flex" target="_blank">
+                <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+              </a>
+              <div>
+                <a id="resume" class="btn btn-primary" href="sources/Nicholas_Orsi_Resume_Personal_Site.pdf" target="_blank">RESUME</a>
+              </div>
+            </div>
           </div>
-          <div class="profile_dialogue">
-            <p class="tldr"><span>TL;DR:</span> I'm Nick Orsi, a Software Engineer with professional civil engineering
-              experience working on technically demanding, fast paced, dynamic projects looking
-              to make an impact on the world at large.</p>
-            <p>Hi, my name is Nick Orsi! I'm a licensed Civil Engineer turned Software Engineer.
-              For the past 8 years I worked for Kiewit, a nationally recognized private
-              contractor building awesome construction projects. I managed critical operations
-              that were technically demanding, fast paced, and susceptible to dynamic changes.
-              Despite these challenges, my efforts consistently resulted in quality products
-              completed safely, under budget, and on time. I am proud of the work I did for my
-              employer, the clients, and for the communities the projects serve.</p>
-            <p>I have since decided to become a Software Engineer for several reasons. One is
-              to pursue my passion for tech, which developed early in high school as I was
-              exposed to science, math, and technology courses. I soon found myself learning
-              intro to physics, chemistry, and even used 3D  modeling software and 3D printers to
-              build cool projects. Coupled with my interest in video games, I even explored going
-              to college to become a video game developer, but decided to follow the footsteps of
-              my Aunt and Grandfather to pursue a Civil Engineer degree.</p>
-            <p>The main reason I made this career change is to become an active contributor to an
-              industry not bound to a particular work sector or geographical location. I see
-              software engineering as an exciting chance to use my skillset once used to improve
-              a particular region of the world to instead make a positive impact on the world at
-              large. I plan to couple my previous experience working on technically demanding,
-              fast paced, dynamic projects with my new skillset as a software engineer to
-              continue to deliver quality products done safely, under budget, and on time.</p>
-            <p>I appreciate you visiting my site! While you’re here please take a look at my <a href="sources/Nicholas_Orsi_Resume_Personal_Site.pdf" target="_blank">resume</a> and
-              some projects I’ve worked on!</p>
+          <div class="col-md-1 order-2"></div>
+          <div class="photo col-md-4 order-1 order-md-3">
+            <img src="sources/images/headshot.jpeg" alt="Author Photo">
           </div>
         </div>
       </div>
     </section>
-    <section class="projects flex" id="projects">
+    <section class="projects" id="projects">
+      <div class="projects_container">
+        <h2>Projects</h2>
+        <div class="software_project">
+        </div>
+      </div>
+    </section>
+    <section class="projects flex" id="construction">
         <div class="software_container">
           <h1>Software Engineering Projects</h1>
           <h3>...Coming Soon</h3>
@@ -88,7 +90,7 @@
           </div>
         </div>
     </section>
-    <section class="contact flex" id="contact">
+    <section class="contact flex" id="hobbies">
       <div class="contact_container">
         <h1>Contact Me</h1>
         <div class="contact_options_container flex">
@@ -102,7 +104,7 @@
           </div>
           <div class="contact_location">
             <p>Based in Vancouver WA</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178536.03163047184!2d-122.78376268622489!3d45.638259229689965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495af63c85914f9%3A0x8456d5112c91e3f3!2sVancouver%2C%20WA!5e0!3m2!1sen!2sus!4v1697513094886!5m2!1sen!2sus" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178536.03163047184!2d-122.78376268622489!3d45.638259229689965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495af63c85914f9%3A0x8456d5112c91e3f3!2sVancouver%2C%20WA!5e0!3m2!1sen!2sus!4v1697513094886!5m2!1sen!2sus" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
           </div>
         </div>
       </div>
