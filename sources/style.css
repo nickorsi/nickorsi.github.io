@@ -84,33 +84,15 @@ main {
   color: #BCA37F;
 }
 
-.email:link, .email:visited {
-  color: rgba(30, 112, 138, 1);
-}
-
-.email:hover {
-  color: rgba(30, 112, 138, 0.5);
-  transition: 0.5s;
-}
-
-.email:active {
-  color: rgba(30, 112, 138, 1);
-}
-
-.photo {
-  margin: 0 auto;
-  max-width: 500px;
-}
-
-.photo img {
-  border-radius: 50%;
-  width: 100%;
-  border: solid 2px #1E708A;
-  margin: 10px auto;
+.about_descript h3 {
+  font-size: calc(1rem + 1.25vw);
+  font-weight: 600;
 }
 
 .about_descript p {
   font-size: calc(1rem + 0.25vw);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 #github, #linkedin {
@@ -146,6 +128,17 @@ main {
   background-color: rgba(30, 112, 138, 1);
 }
 
+.photo {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 100%;
+  border: solid 2px #1E708A;
+  margin: 10px auto;
+}
 
 /* ---------Project Page--------- */
 
@@ -221,7 +214,7 @@ main {
 }
 
 strong {
-  font-weight: 800px;;
+  font-weight: 800;
 }
 
 /* ---------Previous Career Page--------- */
@@ -247,64 +240,65 @@ strong {
   min-height: 100vh;
   margin: 0 auto;
   scroll-margin-top: 90px;
-  margin-top: 40px;
+  margin-top: 200px;
 }
 
 .contact_container {
   width: 90%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
-.contact_container>h1 {
-  font-size: 5vw;
-  margin-top: 25px;
-  margin-bottom: 12px;
+.contact_container>h2 {
+  font-size: clamp(3rem, 5vw, 4rem);
+  font-weight: 700;
+  margin: 10px 0 30px 0;
 }
 
-.contact_options_container {
+.contact_container_parts {
   background-color: #EAD7BB;
   border: solid 2px #BCA37F;
-  border-radius: 50px;
-  justify-content: space-between;
+  border-radius: 10px;
+  margin: 0 0 40px 0;
 }
 
-.contact_options, .contact_location {
-  margin: 20px 20px;
+.contact_text h3 {
+  font-size: calc(1rem + 1.25vw);
+  font-weight: 600;
+  margin: 10px auto;
 }
 
-.contact_list, .contact_location>p {
-  font-size: 3vw;
-  text-align: center;
-  flex-direction: column;
+.contact_text p,
+.contact_email,
+.contact_linkedin,
+.contact_github,
+.contact_location {
+  font-size: calc(1rem + 0.25vw);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
-.contact_list>li {
-  font-size: 2.5vw;
-  text-align: left;
-  flex-wrap: nowrap;
-  flex: 1;
-  margin: auto, 0;
-  padding-top: 40px;
+.email:link,
+.linkedin:link,
+.github:link,
+.email:visited,
+.linkedin:visited,
+.github:visited {
+  color: rgba(30, 112, 138, 1);
 }
 
-.contact_list>p, .contact_location>p {
-  text-decoration: underline;
+.email:hover, .linkedin:hover, .github:hover {
+  color: rgba(30, 112, 138, 0.5);
+  transition: 0.5s;
 }
 
-.contact_list>p {
-  margin: 0;
+.email:active, .linkedin:active, .github:active {
+  color: rgba(30, 112, 138, 1);
 }
 
-.contact_list>li>a:link {
-  color: #1E708A;
-}
-
-.contact_list>li>a:hover {
-  text-decoration: none;
-}
-
-.contact_list>li>a:active {
-  color: red;
+.contact_map iframe {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
 
