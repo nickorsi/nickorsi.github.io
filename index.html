@@ -22,7 +22,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <a class="nav-link" aria-current="page" href="#projects">PROJECTS</a>
-          <a class="nav-link" aria-current="page" href="#construction">CONSTRUCTION</a>
+          <a class="nav-link" aria-current="page" href="#construction">PREVIOUS CAREER</a>
           <a class="nav-link" aria-current="page" href="#hobbies">HOBBIES</a>
         </div>
       </div>
@@ -32,17 +32,17 @@
     <section class="about" id="about">
       <div class="about_container container-flexible">
         <h1 id="name">Nick Orsi</h1>
-        <h2 id="occupation">
-          Software Engineer |
-          Former Civil Engineer |
+        <h2 id="skills">
+          Determined |
+          Adaptable |
+          Collaborative |
           <a class="email" href="mailto:nick.orsi1992@gmail.com">nick.orsi1992@gmail.com</a>
         </h2>
         <div class="about_container_parts row justify-content-around">
-          <div class="descript col-md-7 order-3 order-md-1 d-flex flex-column justify-content-around">
+          <div class="about_descript col-md-7 order-3 order-md-1 d-flex flex-column justify-content-around">
             <h3>Hello!</h3>
-            <p>I'm' a software engineer with a passion for working on substantive
-              problems as part of talented teams making positive impacts. Having
-              worked 8 years as a Civil Engineer I bring the traits and skillsets
+            <p>I'm a full-stack software engineer with a passion for working on
+              substantive problems. Having worked 8 years as a Civil Engineer I bring the traits and skillsets
               of a practiced engineer experienced with working on
               challenging problems, with talented teams, making positive impact.</p>
             <div class="d-flex justify-content-around align-items-center">
@@ -57,38 +57,186 @@
                 </svg>
               </a>
               <div>
-                <a id="resume" class="btn btn-primary" href="sources/Nicholas_Orsi_Resume_Personal_Site.pdf" target="_blank">RESUME</a>
+                <a id="resume" class="btn btn-primary" href="sources/Nicholas_Orsi_Resume.pdf" target="_blank">RESUME</a>
               </div>
             </div>
           </div>
           <div class="col-md-1 order-2"></div>
           <div class="photo col-md-4 order-1 order-md-3">
-            <img src="sources/images/headshot.jpeg" alt="Author Photo">
+            <img src="sources/images/headshot.jpeg" alt="Nick Orsi">
           </div>
         </div>
       </div>
     </section>
     <section class="projects" id="projects">
-      <div class="projects_container">
+      <div class="projects_container container-flexible">
         <h2>Projects</h2>
-        <div class="software_project">
+        <h3 class="project-title">SALTLY | <a href="https://saltly.onrender.com">Demo</a> | <a href="https://github.com/nickorsi/satly">Github</a></h3>
+        <div class="project_container_parts row justify-content-around">
+          <div class="project_descript_container row justify-content-between col-lg-12 col-xxl-5 order-3 order-xxl-1">
+            <p class="project-descript">An image light table/editor app. Users can post images and edit them to a greyscale color tone.</p>
+            <p class="project-features">Implemented the use of the Python library Pillow for image handling and editing, as well as AWS S3 to keep image files seperate from the database.</p>
+            <p class="project-deploy">Deployed using Render and ElephantSQL.</p>
+            <p>
+              <strong>Note: Demo site may take a moment to load.</strong>
+            </p>
+            <p class="project-techstack"><strong>Tech Stack & Tools:</strong>  Python, Flask, PostgreSQL SQLAlchemy, Jinja, WTForms, AWS S3 </p>
+          </div>
+          <div class="project-demo col-lg-12 col-xxl-7 order-1 order-xxl-3">
+            <img src="sources/images/satly_demo.gif" alt="Saltly Site Demo">
+          </div>
+        </div>
+      </div>
+      <div class="projects_container container-flexible">
+        <h3 class="project-title">WARBLER | <a href="https://nick-orsi-warbler.onrender.com/">Demo</a> | <a href="https://github.com/nickorsi/flask-warbler">Github</a></h3>
+        <div class="project_container_parts row justify-content-around">
+          <div class="project_descript_container row justify-content-between col-lg-12 col-xxl-5 order-3 order-xxl-1">
+            <p class="project-descript">A social media/messaging app. Users can create accounts, follow/unfollow other users, create messages, and like/unlike other messages.</p>
+            <p class="project-features">Implemented the use of the use of flask-bcrypt to securely save hashed versions of passwords and authenticate users.</p>
+            <p class="project-deploy">Deployed using Render and ElephantSQL.</p>
+            <p>
+              <strong>Note: Demo site may take a moment to load.</strong>
+            </p>
+            <p class="project-techstack"><strong>Tech Stack & Tools:</strong> Python, Flask, PostgreSQL SQLAlchemy, Jinja, WTForms, Flask-bcrypt </p>
+          </div>
+          <div class="project-demo col-lg-12 col-xxl-7 order-1 order-xxl-3">
+            <img src="sources/images/warbler_demo.gif" alt="Warbler Site Demo">
+          </div>
         </div>
       </div>
     </section>
-    <section class="projects flex" id="construction">
-        <div class="software_container">
-          <h1>Software Engineering Projects</h1>
-          <h3>...Coming Soon</h3>
-          <div class="software_project">
+    <section class="projects" id="construction">
+      <div class="projects_container container-flexible">
+        <h2>Construction Projects</h2>
+        <h3 class="project-title">GROSS RESERVOIR | <span class="location">Denver, CO</span> | <a href="https://www.denverwater.org/grossreservoir">Project Info</a></h3>
+        <div class="project_container_parts row justify-content-around">
+          <div class="project_descript_container row justify-content-between col-lg-12 col-xxl-5 order-3 order-xxl-1">
+            <p class="project-descript">
+              The Gross Reservoir Expansion Project will raise the height of the existing dam by 131 feet to triple the reservoir's water storage capacity.
+            </p>
+            <p class="project-duration">
+              The project started in April of 2022 and is estimated to take 5 years to complete.
+            </p>
+            <p class="project-roles">My primary role on this project was Lead Superintendent for the dam foundation excavation operation. This involved the rock excavation, rock slope anchor installation, and foundation preparation and cleaning along the entire new footprint of the dam. </p>
+          </div>
+          <div class="project-pics col-lg-12 col-xxl-7 order-1 order-xxl-3">
+            <div id="grossCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#grossCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#grossCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#grossCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="sources/images/gross/rock_exc.jpeg" class="d-block" alt="Rock Exc">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/gross/rock_anchor.jpeg" class="d-block" alt="Rock Anchor Testing">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/gross/fdn_clean.jpeg" class="d-block" alt="Foundation Cleaning">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#grossCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#grossCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="construction_container">
-          <h1>Construction Projects</h1>
-          <h3>Oroville Emergency Spillway Repair Project</h3>
-          <div class="construction_project">
-            <p>...Coming Soon</p>
+      </div>
+      <div class="projects_container container-flexible">
+        <h3 class="project-title">SM 101 FREEWAY | <span class="location">Belmont, CA</span> | <a href="https://dot.ca.gov/caltrans-near-me/district-4/d4-projects/d4-san-mateo-101-express-lane-project">Project Info</a></h3>
+        <div class="project_container_parts row justify-content-around">
+          <div class="project_descript_container row justify-content-between col-lg-12 col-xxl-5 order-3 order-xxl-1">
+            <p class="project-descript">
+              The San Mateo 101 Express Lanes Project added a new express lane in both the NB and SB directions of a 22 mile portion of the 101 freeway.
+            </p>
+            <p class="project-duration">
+              The project started in February of 2019 and was completed in March of 2023.
+            </p>
+            <p class="project-roles">
+              I held several roles on this project including Discipline Engineer and Roadway Excavation Superintendent. As the Discpline Engineer I was in charge of the internal documentation for all civil operations. As a Roadway Excavation Superintendent I managed crews executing the freeway widening work.
+            </p>
+          </div>
+          <div class="project-pics col-lg-12 col-xxl-7 order-1 order-xxl-3">
+            <div id="101Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#101Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#101Carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#101Carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="sources/images/101/asphalt_patch.jpeg" class="d-block" alt="Asphalt Patch">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/101/concrete_demo.jpeg" class="d-block" alt="Concrete Demo">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/101/utility_exc.jpeg" class="d-block" alt="Utility Exc">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#101Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#101Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="projects_container container-flexible">
+        <h3 class="project-title">Oroville Spillway Repair | <span class="location">Oroville, CA</span> | <a href="https://water.ca.gov/Programs/State-Water-Project/SWP-Facilities/Oroville/Oroville-Spillways">Project Info</a></h3>
+        <div class="project_container_parts row justify-content-around">
+          <div class="project_descript_container row justify-content-between col-lg-12 col-xxl-5 order-3 order-xxl-1">
+            <p class="project-descript">
+              The Oroville Emergency Spillway Repair Project completely rebuilt the main and emergency spillways as well as the recreational facilities.
+            </p>
+            <p class="project-duration">
+              The spillway repairs started in May of 2017 and was completed in November of 2018. The reconstruction of the recreational facilities continued into 2020.
+            </p>
+            <p class="project-roles">
+              I held numerous roles on this project starting as a Field Engineer and ending as a Superintendent. The operations I managed included blasting, spillway anchor installation, utility installation, and asphalt grinding/paving.
+            </p>
+          </div>
+          <div class="project-pics col-lg-12 col-xxl-7 order-1 order-xxl-3">
+            <div id="orovilleCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#orovilleCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#orovilleCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#orovilleCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="sources/images/oroville/drilling.jpeg" class="d-block" alt="Drilling">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/oroville/blast.jpeg" class="d-block" alt="Blasting">
+                </div>
+                <div class="carousel-item">
+                  <img src="sources/images/oroville/anchor_grout.jpeg" class="d-block" alt="Anchor Grouting">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#orovilleCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#orovilleCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="contact flex" id="hobbies">
       <div class="contact_container">
@@ -111,4 +259,7 @@
     </section>
   </main>
 </body>
+<!-- <script>
+  const carousel = new bootstrap.Carousel('#grossCarousel')
+</script> -->
 </html>
